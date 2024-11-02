@@ -9,22 +9,22 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "22505271"))
-API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8027422004:AAEwfHNYNuyhI4crk8nhr2P8d6HA5CZ0MZk")
+APP_ID = int(os.environ.get("APP_ID", "10660564"))
+API_HASH = os.environ.get("API_HASH", "527e6297989f4e7cda5091f5bf41d0e4")
 
 
-OWNER = os.environ.get("OWNER", "PlayTime_Jatin") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "6695586027")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "uxbbot")
+OWNER = os.environ.get("OWNER", "") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "6444128136")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://david:Nath@cluster0.dv0ma.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database id 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002108419450"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001976541518"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001982072622"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002072891392"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002318835253")) #database id 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002457281221"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002293080149"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002427161264"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002429545686"))
 
 
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
@@ -41,7 +41,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 
 try:
     ADMINS=[6020516635]
-    for x in (os.environ.get("ADMINS", "6020516635 6695586027").split()):
+    for x in (os.environ.get("ADMINS", "6831947029").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
