@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8027422004:AAEwfHNYNuyhI4crk8nhr2P8d6HA5CZ0MZk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7876087766:AAEB0UCeiCn-147d0lm196ydFezSlCvcbts")
 APP_ID = int(os.environ.get("APP_ID", "23336308"))
 API_HASH = os.environ.get("API_HASH", "884c5a2f4583f875d9d021b222e1d752")
 
@@ -41,7 +41,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 
 try:
     ADMINS=[6020516635]
-    for x in (os.environ.get("ADMINS", "6831947029").split()):
+    for x in (os.environ.get("ADMINS", "6831947029 6444128136 5324831370").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
