@@ -10,12 +10,12 @@ from logging.handlers import RotatingFileHandler
 
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8027422004:AAEwfHNYNuyhI4crk8nhr2P8d6HA5CZ0MZk")
-APP_ID = int(os.environ.get("APP_ID", "10660564"))
-API_HASH = os.environ.get("API_HASH", "527e6297989f4e7cda5091f5bf41d0e4")
+APP_ID = int(os.environ.get("APP_ID", "23336308"))
+API_HASH = os.environ.get("API_HASH", "884c5a2f4583f875d9d021b222e1d752")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "6444128136")) #Owner user id
+OWNER = os.environ.get("OWNER", "@GhostParadis3") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "6831947029")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://david:Nath@cluster0.dv0ma.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
