@@ -16,7 +16,7 @@ API_HASH = os.environ.get("API_HASH", "884c5a2f4583f875d9d021b222e1d752")
 
 OWNER = os.environ.get("OWNER", "@GhostParadis3") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "6831947029")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://david:Nath@cluster0.dv0ma.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://david:Nath@cluster0.dv0ma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
 
@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[6020516635]
+    ADMINS=[5324831370]
     for x in (os.environ.get("ADMINS", "6831947029 6444128136 5324831370").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -59,7 +59,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(6831947029)
 
 LOG_FILE_NAME = "uxblogs.txt"
 
